@@ -1,0 +1,32 @@
+header > p {
+    font-size:20px;
+}
+article > img {
+    border: 2px solid blue;
+    margin: 3px;
+}
+
+article>mark {
+    font-size:20px;
+}
+article>img {
+    height: 200px;
+    width:200px;
+    transition: width 2s,height 2s;
+}
+article>img:hover {
+    width: 300px;
+    height: 300px;
+}
+gallery {
+    column-count: 4;
+}
+gallery>img {
+    height: 50px;
+    width:50px;
+    transition: width 2s,height 2s;
+}
+gallery>img:hover {
+    width: 150px;
+    height: 150px;
+}
