@@ -1,32 +1,52 @@
 header > p {
     font-size:20px;
 }
+
+
 article > img {
     border: 2px solid blue;
     margin: 3px;
 }
 
-article>mark {
+article>center>mark {
     font-size:20px;
 }
-article>img {
+article>center>img {
     height: 200px;
     width:200px;
     transition: width 2s,height 2s;
 }
-article>img:hover {
+article>center>img:hover {
     width: 300px;
     height: 300px;
 }
 gallery {
     column-count: 4;
 }
-gallery>img {
-    height: 50px;
-    width:50px;
+gallery>center>img {
+    height: 100px;
+    width:100px;
     transition: width 2s,height 2s;
 }
-gallery>img:hover {
+gallery>center>img:hover {
     width: 150px;
     height: 150px;
+}
+#article{
+    background-color: beige;
+}
+#gallery{
+    background-color: lightcyan;
+}
+#footer{
+    background-color:lightcyan; 
+}
+#header{
+    background-color: antiquewhite
+}
+nav th {
+    padding-right: 100px;
+}
+nav th {
+    font-size: 20px;
 }
